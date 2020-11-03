@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Final Exam">
+
+    <test verbose="2" preserve-order="true" name="D:/myjavaprojects/FinalProject/src">
+        <classes>
+            <class name="SecondClass">
+                <methods>
+                    <include name="countImages"></include>
+                    <include name="countButtons"></include>
+                </methods>
+            </class>
+            <class name="FirstClass">
+                <methods>
+                 <include name="checkDisplayingImg"></include>
+                    <include name="checkTitle"></include>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
